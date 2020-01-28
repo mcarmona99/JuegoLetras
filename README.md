@@ -1,5 +1,7 @@
 Jose Saldaña Mercado 76424266G & Manuel Carmona Perez 17482989E
 
+--NOTA: Crear la carpeta ./bin y ./obj para que funcione el makefile. Dichas carpetas no se han subido a github por estar vacías.
+
 --Práctica final: Letras
 
 El programa simulará parte del juego “Cifras y Letras”. En este caso solamente deberá generar la sección de Letras. Este juego consiste en dada una serie de letras escogidas de forma aleatoria, obtener la palabra existente en un diccionario formada a partir de ellas de mayor longitud o que tenga la mayor puntuación.
