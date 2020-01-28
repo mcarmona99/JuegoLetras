@@ -1,0 +1,132 @@
+.TH "Diccionario" 3 "Viernes, 28 de Diciembre de 2018" "ClaseDiccionario" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Diccionario
+.SH SYNOPSIS
+.br
+.PP
+.SS "Clases"
+
+.in +1c
+.ti -1c
+.RI "class \fBiterator\fP"
+.br
+.RI "clase para iterar sobre el diccionario "
+.in -1c
+.SS "Métodos públicos"
+
+.in +1c
+.ti -1c
+.RI "\fBDiccionario\fP ()"
+.br
+.RI "Construye un diccionario vacío\&. "
+.ti -1c
+.RI "int \fBsize\fP () const"
+.br
+.RI "Devuelve el numero de palabras en el diccionario\&. "
+.ti -1c
+.RI "vector< string > \fBPalabrasLongitud\fP (int longitud)"
+.br
+.RI "Obtiene todas las palabras en el diccionario de un longitud dada\&. "
+.ti -1c
+.RI "bool \fBEsta\fP (string palabra)"
+.br
+.RI "Indica si una palabra está en el diccionario o no\&. "
+.ti -1c
+.RI "\fBiterator\fP \fBbegin\fP ()"
+.br
+.RI "Inicializa un iterator al comienzo del diccionario\&. "
+.ti -1c
+.RI "\fBiterator\fP \fBend\fP ()"
+.br
+.RI "Inicializa un iterator al final del diccionario\&. "
+.in -1c
+.SS "Amigas"
+
+.in +1c
+.ti -1c
+.RI "istream & \fBoperator>>\fP (istream &is, \fBDiccionario\fP &D)"
+.br
+.RI "Lee de un flujo de entrada un diccionario\&. "
+.ti -1c
+.RI "ostream & \fBoperator<<\fP (ostream &os, \fBDiccionario\fP &D)"
+.br
+.RI "Escribe en un flujo de salida un diccionario\&. "
+.in -1c
+.SH "Documentación de las funciones miembro"
+.PP 
+.SS "bool Diccionario::Esta (string palabra)\fC [inline]\fP"
+
+.PP
+Indica si una palabra está en el diccionario o no\&. 
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIpalabra\fP la palabra que se quiere buscar 
+.RE
+.PP
+\fBDevuelve:\fP
+.RS 4
+true si la palabra esta en el diccionario\&. False en caso contrario 
+.RE
+.PP
+
+.SS "vector<string> Diccionario::PalabrasLongitud (int longitud)\fC [inline]\fP"
+
+.PP
+Obtiene todas las palabras en el diccionario de un longitud dada\&. 
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIlongitud\fP la longitud de las palabras de salida 
+.RE
+.PP
+\fBDevuelve:\fP
+.RS 4
+un vector con las palabras de longitud especifica en el parametro de entrada 
+.RE
+.PP
+
+.SH "Documentación de las funciones relacionadas y clases amigas"
+.PP 
+.SS "ostream& operator<< (ostream & os, \fBDiccionario\fP & D)\fC [friend]\fP"
+
+.PP
+Escribe en un flujo de salida un diccionario\&. 
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIos:flujo\fP de salida 
+.br
+\fID\fP el objeto diccionario que se escribe 
+.RE
+.PP
+\fBDevuelve:\fP
+.RS 4
+el flujo de salida 
+.RE
+.PP
+
+.SS "istream& operator>> (istream & is, \fBDiccionario\fP & D)\fC [friend]\fP"
+
+.PP
+Lee de un flujo de entrada un diccionario\&. 
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIis:flujo\fP de entrada 
+.br
+\fID\fP el objeto donde se realiza la lectura\&. 
+.RE
+.PP
+\fBDevuelve:\fP
+.RS 4
+el flujo de entrada 
+.RE
+.PP
+
+
+.SH "Autor"
+.PP 
+Generado automáticamente por Doxygen para ClaseDiccionario del código fuente\&.

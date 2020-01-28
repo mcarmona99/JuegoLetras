@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="structinfo" kind="struct"><name>info</name>
+    <member refid="structinfo_1a634e8f3f06ee707f05b1a18c84d5ec26" kind="variable"><name>apariciones</name></member>
+    <member refid="structinfo_1a6b374b9892dcf95f9c44cc7a203c5e57" kind="variable"><name>puntuacion</name></member>
+    <member refid="structinfo_1afe7ef9d6316c0d999561eea884781bad" kind="function"><name>info</name></member>
+  </compound>
+  <compound refid="classLetras_1_1iterator" kind="class"><name>Letras::iterator</name>
+    <member refid="classLetras_1_1iterator_1a2d2b693b8b1622fb2946dba5812ff6c0" kind="variable"><name>it</name></member>
+    <member refid="classLetras_1_1iterator_1a63063318eace5c2412fd3a23b9efb409" kind="friend"><name>Letras</name></member>
+    <member refid="classLetras_1_1iterator_1a17a9f16bc61e9b9f860923fa623d1e7f" kind="function"><name>operator++</name></member>
+    <member refid="classLetras_1_1iterator_1a7a6c01dab9a67464457403ec044a8135" kind="function"><name>operator--</name></member>
+    <member refid="classLetras_1_1iterator_1a952d13287a9435764ee98653778d3d7d" kind="function"><name>operator*</name></member>
+    <member refid="classLetras_1_1iterator_1a1ec9d3aad990986b2b09942edac0976b" kind="function"><name>operator==</name></member>
+    <member refid="classLetras_1_1iterator_1afd5eed2a6f6397c4abc72d08747c5394" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="classLetras" kind="class"><name>Letras</name>
+    <member refid="classLetras_1a13501f2fb102c6dd8b343de5896fc110" kind="variable"><name>datos</name></member>
+    <member refid="classLetras_1af8ceec2cf86dbe8a4be3492a82174dcd" kind="function"><name>Letras</name></member>
+    <member refid="classLetras_1a3945484bd373b3afbbc18f741b7eab59" kind="function"><name>getDatos</name></member>
+    <member refid="classLetras_1a4e10189e5de6c91d2f3a1f3ff94f44bd" kind="function"><name>size</name></member>
+    <member refid="classLetras_1a6bbbbfff1234adf43426ca7005fade44" kind="function"><name>letrasTotales</name></member>
+    <member refid="classLetras_1a701a2facb3e43516889234c5e5ec99f0" kind="function"><name>insert</name></member>
+    <member refid="classLetras_1a7a60346ddf283f4288e116bfde987919" kind="function"><name>clear</name></member>
+    <member refid="classLetras_1a04af293c10692da448c878fb3d43aefa" kind="function"><name>begin</name></member>
+    <member refid="classLetras_1a74688c29b3dc2af95c794e604ac393f6" kind="function"><name>end</name></member>
+    <member refid="classLetras_1a0421b5bbfb15ec3f48b7628a5afc42ba" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classLetras_1a3d860b8bda86d5a30b8094770cc035b5" kind="friend"><name>operator&gt;&gt;</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="letras_8h" kind="file"><name>letras.h</name>
+    <member refid="letras_8h_1a995020fc98bf5e761215c97f4b714904" kind="function"><name>operator&gt;&gt;</name></member>
+    <member refid="letras_8h_1a77d35b88feecb5e965c5e051c1c34975" kind="function"><name>operator&lt;&lt;</name></member>
+  </compound>
+</doxygenindex>

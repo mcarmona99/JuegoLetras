@@ -1,0 +1,120 @@
+\section{Referencia de la Clase Diccionario}
+\label{classDiccionario}\index{Diccionario@{Diccionario}}
+\subsection*{Clases}
+\begin{DoxyCompactItemize}
+\item 
+class \textbf{ iterator}
+\begin{DoxyCompactList}\small\item\em clase para iterar sobre el diccionario \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{classDiccionario_aa0a2191ec706b256c35b5229cc197b15}} 
+\textbf{ Diccionario} ()
+\begin{DoxyCompactList}\small\item\em Construye un diccionario vacío. \end{DoxyCompactList}\item 
+\mbox{\label{classDiccionario_a74ea14ecba52288b84ffc6ea1f2fba99}} 
+int \textbf{ size} () const
+\begin{DoxyCompactList}\small\item\em Devuelve el numero de palabras en el diccionario. \end{DoxyCompactList}\item 
+vector$<$ string $>$ \textbf{ Palabras\+Longitud} (int longitud)
+\begin{DoxyCompactList}\small\item\em Obtiene todas las palabras en el diccionario de un longitud dada. \end{DoxyCompactList}\item 
+bool \textbf{ Esta} (string palabra)
+\begin{DoxyCompactList}\small\item\em Indica si una palabra está en el diccionario o no. \end{DoxyCompactList}\item 
+\mbox{\label{classDiccionario_a3f42d480e74efbd66b8837d0ea1e491d}} 
+\textbf{ iterator} \textbf{ begin} ()
+\begin{DoxyCompactList}\small\item\em Inicializa un iterator al comienzo del diccionario. \end{DoxyCompactList}\item 
+\mbox{\label{classDiccionario_abe91cc666c92f7f003507a82bdcd8c35}} 
+\textbf{ iterator} \textbf{ end} ()
+\begin{DoxyCompactList}\small\item\em Inicializa un iterator al final del diccionario. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Amigas}
+\begin{DoxyCompactItemize}
+\item 
+istream \& \textbf{ operator$>$$>$} (istream \&is, \textbf{ Diccionario} \&D)
+\begin{DoxyCompactList}\small\item\em Lee de un flujo de entrada un diccionario. \end{DoxyCompactList}\item 
+ostream \& \textbf{ operator$<$$<$} (ostream \&os, \textbf{ Diccionario} \&D)
+\begin{DoxyCompactList}\small\item\em Escribe en un flujo de salida un diccionario. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\label{classDiccionario_a2091d415bc53c34a0e78e7bd9b073024}} 
+\index{Diccionario@{Diccionario}!Esta@{Esta}}
+\index{Esta@{Esta}!Diccionario@{Diccionario}}
+\subsubsection{Esta()}
+{\footnotesize\ttfamily bool Diccionario\+::\+Esta (\begin{DoxyParamCaption}\item[{string}]{palabra }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Indica si una palabra está en el diccionario o no. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em palabra} & la palabra que se quiere buscar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+true si la palabra esta en el diccionario. False en caso contrario 
+\end{DoxyReturn}
+\mbox{\label{classDiccionario_a11f24f812f9aab727dc5ef088aa0d45b}} 
+\index{Diccionario@{Diccionario}!Palabras\+Longitud@{Palabras\+Longitud}}
+\index{Palabras\+Longitud@{Palabras\+Longitud}!Diccionario@{Diccionario}}
+\subsubsection{Palabras\+Longitud()}
+{\footnotesize\ttfamily vector$<$string$>$ Diccionario\+::\+Palabras\+Longitud (\begin{DoxyParamCaption}\item[{int}]{longitud }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene todas las palabras en el diccionario de un longitud dada. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em longitud} & la longitud de las palabras de salida \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+un vector con las palabras de longitud especifica en el parametro de entrada 
+\end{DoxyReturn}
+
+
+\subsection{Documentación de las funciones relacionadas y clases amigas}
+\mbox{\label{classDiccionario_ab113838fe9eefef3cc1c6710e45bde31}} 
+\index{Diccionario@{Diccionario}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Diccionario@{Diccionario}}
+\subsubsection{operator$<$$<$}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{\textbf{ Diccionario} \&}]{D }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Escribe en un flujo de salida un diccionario. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em os\+:flujo} & de salida \\
+\hline
+{\em D} & el objeto diccionario que se escribe \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+el flujo de salida 
+\end{DoxyReturn}
+\mbox{\label{classDiccionario_a940c6d9371bca891c95a5a044a42905f}} 
+\index{Diccionario@{Diccionario}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Diccionario@{Diccionario}}
+\subsubsection{operator$>$$>$}
+{\footnotesize\ttfamily istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{is,  }\item[{\textbf{ Diccionario} \&}]{D }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Lee de un flujo de entrada un diccionario. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em is\+:flujo} & de entrada \\
+\hline
+{\em D} & el objeto donde se realiza la lectura. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+el flujo de entrada 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ Diccionario.\+h}\end{DoxyCompactItemize}

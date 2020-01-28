@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classDiccionario_1_1iterator" kind="class" language="C++" prot="public">
+    <compoundname>Diccionario::iterator</compoundname>
+    <includes refid="Diccionario_8h" local="no">Diccionario.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classDiccionario_1_1iterator_1aeb9bb5ac93a06759cc8204d33cdee8cc" prot="private" static="no" mutable="no">
+        <type>set&lt; string &gt;::<ref refid="classDiccionario_1_1iterator" kindref="compound">iterator</ref></type>
+        <definition>set&lt;string&gt;::iterator Diccionario::iterator::it</definition>
+        <argsstring></argsstring>
+        <name>it</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="112" column="1" bodyfile="Diccionario.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classDiccionario_1_1iterator_1ad36be158dde0129b4e0d03d0e454a26b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class Diccionario</definition>
+        <argsstring></argsstring>
+        <name>Diccionario</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="128" column="1" bodyfile="Diccionario.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDiccionario_1_1iterator_1a09b6773eef10e4563efa069d3d88f4fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Diccionario::iterator::iterator</definition>
+        <argsstring>()</argsstring>
+        <name>iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="114" column="1" bodyfile="Diccionario.h" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classDiccionario_1_1iterator_1aa03a8aa59bb2b36d4b6d6540afc18deb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Diccionario::iterator::operator*</definition>
+        <argsstring>()</argsstring>
+        <name>operator*</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="115" column="1" bodyfile="Diccionario.h" bodystart="115" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classDiccionario_1_1iterator_1ae3f020050c891ff3a94e599879401729" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classDiccionario_1_1iterator" kindref="compound">iterator</ref> &amp;</type>
+        <definition>iterator&amp; Diccionario::iterator::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="118" column="1" bodyfile="Diccionario.h" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classDiccionario_1_1iterator_1a6ab38d0620a196200714ee04291dea55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Diccionario::iterator::operator==</definition>
+        <argsstring>(const iterator &amp;i)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classDiccionario_1_1iterator" kindref="compound">iterator</ref> &amp;</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="122" column="1" bodyfile="Diccionario.h" bodystart="122" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classDiccionario_1_1iterator_1a5d51cafd201ab15390e991c6aed327ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Diccionario::iterator::operator!=</definition>
+        <argsstring>(const iterator &amp;i)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classDiccionario_1_1iterator" kindref="compound">iterator</ref> &amp;</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="125" column="1" bodyfile="Diccionario.h" bodystart="125" bodyend="127"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>clase para iterar sobre el diccionario </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Diccionario.h" line="110" column="1" bodyfile="Diccionario.h" bodystart="110" bodyend="129"/>
+    <listofallmembers>
+      <member refid="classDiccionario_1_1iterator_1ad36be158dde0129b4e0d03d0e454a26b" prot="public" virt="non-virtual"><scope>Diccionario::iterator</scope><name>Diccionario</name></member>
+      <member refid="classDiccionario_1_1iterator_1aeb9bb5ac93a06759cc8204d33cdee8cc" prot="private" virt="non-virtual"><scope>Diccionario::iterator</scope><name>it</name></member>
+      <member refid="classDiccionario_1_1iterator_1a09b6773eef10e4563efa069d3d88f4fc" prot="public" virt="non-virtual"><scope>Diccionario::iterator</scope><name>iterator</name></member>
+      <member refid="classDiccionario_1_1iterator_1a5d51cafd201ab15390e991c6aed327ee" prot="public" virt="non-virtual"><scope>Diccionario::iterator</scope><name>operator!=</name></member>
+      <member refid="classDiccionario_1_1iterator_1aa03a8aa59bb2b36d4b6d6540afc18deb" prot="public" virt="non-virtual"><scope>Diccionario::iterator</scope><name>operator*</name></member>
+      <member refid="classDiccionario_1_1iterator_1ae3f020050c891ff3a94e599879401729" prot="public" virt="non-virtual"><scope>Diccionario::iterator</scope><name>operator++</name></member>
+      <member refid="classDiccionario_1_1iterator_1a6ab38d0620a196200714ee04291dea55" prot="public" virt="non-virtual"><scope>Diccionario::iterator</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

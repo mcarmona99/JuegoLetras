@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classLetras" kind="class" language="C++" prot="public">
+    <compoundname>Letras</compoundname>
+    <includes refid="letras_8h" local="no">letras.h</includes>
+    <innerclass refid="classLetras_1_1iterator" prot="public">Letras::iterator</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classLetras_1a13501f2fb102c6dd8b343de5896fc110" prot="private" static="no" mutable="no">
+        <type>map&lt; char, <ref refid="structinfo" kindref="compound">info</ref> &gt;</type>
+        <definition>map&lt;char,info&gt; Letras::datos</definition>
+        <argsstring></argsstring>
+        <name>datos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="58" column="1" bodyfile="letras.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLetras_1af8ceec2cf86dbe8a4be3492a82174dcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Letras::Letras</definition>
+        <argsstring>()</argsstring>
+        <name>Letras</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="61" column="1" bodyfile="letras.h" bodystart="61" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classLetras_1a3945484bd373b3afbbc18f741b7eab59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>map&lt; char, <ref refid="structinfo" kindref="compound">info</ref> &gt;</type>
+        <definition>map&lt;char,info&gt; Letras::getDatos</definition>
+        <argsstring>()</argsstring>
+        <name>getDatos</name>
+        <briefdescription>
+<para>getDatos </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>map de &lt;char, info&gt; llamado datos de la bolsa de letras </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="68" column="1" bodyfile="letras.h" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classLetras_1a4e10189e5de6c91d2f3a1f3ff94f44bd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Letras::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <briefdescription>
+<para>size </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>devuelve numero de letras distintas en bolsa de letras (elementos del map) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="76" column="1" bodyfile="letras.h" bodystart="76" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classLetras_1a6bbbbfff1234adf43426ca7005fade44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Letras::letrasTotales</definition>
+        <argsstring>()</argsstring>
+        <name>letrasTotales</name>
+        <briefdescription>
+<para>size </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>devuelve numero total de letras en bolsa de letras </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="84" column="1" bodyfile="letras.h" bodystart="84" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classLetras_1a701a2facb3e43516889234c5e5ec99f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Letras::insert</definition>
+        <argsstring>(char letra)</argsstring>
+        <name>insert</name>
+        <param>
+          <type>char</type>
+          <declname>letra</declname>
+        </param>
+        <briefdescription>
+<para>Insert letra. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>letra</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char letra </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="97" column="1" bodyfile="letras.h" bodystart="97" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classLetras_1a7a60346ddf283f4288e116bfde987919" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Letras::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+<para>Limpia las letras, vacia el mapa. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="137" column="1" bodyfile="letras.h" bodystart="137" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classLetras_1a04af293c10692da448c878fb3d43aefa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classLetras_1_1iterator" kindref="compound">iterator</ref></type>
+        <definition>iterator Letras::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <briefdescription>
+<para>Inicializa un iterator al comienzo de las letras. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="173" column="1" bodyfile="letras.h" bodystart="173" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classLetras_1a74688c29b3dc2af95c794e604ac393f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classLetras_1_1iterator" kindref="compound">iterator</ref></type>
+        <definition>iterator Letras::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+<para>Inicializa un iterator al final de las letras. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="182" column="1" bodyfile="letras.h" bodystart="182" bodyend="186"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classLetras_1a0421b5bbfb15ec3f48b7628a5afc42ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>friend ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;os, Letras &amp;g)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classLetras" kindref="compound">Letras</ref> &amp;</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+<para>Escritura de la letras. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>os</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>flujo de salida. Es MODIFICADO </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>g</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>letras que se escriben </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>el flujo de salida </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="195" column="1" bodyfile="letras.h" bodystart="195" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="friend" id="classLetras_1a3d860b8bda86d5a30b8094770cc035b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>friend istream &amp;</type>
+        <definition>istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(istream &amp;is, Letras &amp;g)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="classLetras" kindref="compound">Letras</ref> &amp;</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+<para>Lectura de las <ref refid="classLetras" kindref="compound">Letras</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>is</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>flujo de entrada. ES MODIFICADO </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>g</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classLetras" kindref="compound">Letras</ref>. ES MODIFICADO </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>el flujo de entrada </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="210" column="1" bodyfile="letras.h" bodystart="210" bodyend="219"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>T.D.A. Letra. </para>    </briefdescription>
+    <detaileddescription>
+<para>Una instancia <emphasis>c</emphasis> del tipo de datos abstracto <computeroutput>Letra</computeroutput> es un objeto formado por El carácter de la propia letra, La cantidad de veces que puede aparecer en un diccionario La puntuación de una letra.</para><para><simplesect kind="author"><para>Jose Saldaña &amp;&amp; Manuel Carmona </para></simplesect>
+<simplesect kind="date"><para>Diciembre 2018 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="letras.h" line="56" column="1" bodyfile="letras.h" bodystart="56" bodyend="220"/>
+    <listofallmembers>
+      <member refid="classLetras_1a04af293c10692da448c878fb3d43aefa" prot="public" virt="non-virtual"><scope>Letras</scope><name>begin</name></member>
+      <member refid="classLetras_1a7a60346ddf283f4288e116bfde987919" prot="public" virt="non-virtual"><scope>Letras</scope><name>clear</name></member>
+      <member refid="classLetras_1a13501f2fb102c6dd8b343de5896fc110" prot="private" virt="non-virtual"><scope>Letras</scope><name>datos</name></member>
+      <member refid="classLetras_1a74688c29b3dc2af95c794e604ac393f6" prot="public" virt="non-virtual"><scope>Letras</scope><name>end</name></member>
+      <member refid="classLetras_1a3945484bd373b3afbbc18f741b7eab59" prot="public" virt="non-virtual"><scope>Letras</scope><name>getDatos</name></member>
+      <member refid="classLetras_1a701a2facb3e43516889234c5e5ec99f0" prot="public" virt="non-virtual"><scope>Letras</scope><name>insert</name></member>
+      <member refid="classLetras_1af8ceec2cf86dbe8a4be3492a82174dcd" prot="public" virt="non-virtual"><scope>Letras</scope><name>Letras</name></member>
+      <member refid="classLetras_1a6bbbbfff1234adf43426ca7005fade44" prot="public" virt="non-virtual"><scope>Letras</scope><name>letrasTotales</name></member>
+      <member refid="classLetras_1a0421b5bbfb15ec3f48b7628a5afc42ba" prot="public" virt="non-virtual"><scope>Letras</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classLetras_1a3d860b8bda86d5a30b8094770cc035b5" prot="public" virt="non-virtual"><scope>Letras</scope><name>operator&gt;&gt;</name></member>
+      <member refid="classLetras_1a4e10189e5de6c91d2f3a1f3ff94f44bd" prot="public" virt="non-virtual"><scope>Letras</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

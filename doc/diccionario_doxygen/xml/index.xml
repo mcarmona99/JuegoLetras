@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classDiccionario" kind="class"><name>Diccionario</name>
+    <member refid="classDiccionario_1aae047bbcc9d6bc3c7b0b2c308d39048d" kind="variable"><name>datos</name></member>
+    <member refid="classDiccionario_1aa0a2191ec706b256c35b5229cc197b15" kind="function"><name>Diccionario</name></member>
+    <member refid="classDiccionario_1a74ea14ecba52288b84ffc6ea1f2fba99" kind="function"><name>size</name></member>
+    <member refid="classDiccionario_1a11f24f812f9aab727dc5ef088aa0d45b" kind="function"><name>PalabrasLongitud</name></member>
+    <member refid="classDiccionario_1a2091d415bc53c34a0e78e7bd9b073024" kind="function"><name>Esta</name></member>
+    <member refid="classDiccionario_1a3f42d480e74efbd66b8837d0ea1e491d" kind="function"><name>begin</name></member>
+    <member refid="classDiccionario_1abe91cc666c92f7f003507a82bdcd8c35" kind="function"><name>end</name></member>
+    <member refid="classDiccionario_1a940c6d9371bca891c95a5a044a42905f" kind="friend"><name>operator&gt;&gt;</name></member>
+    <member refid="classDiccionario_1ab113838fe9eefef3cc1c6710e45bde31" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="classDiccionario_1_1iterator" kind="class"><name>Diccionario::iterator</name>
+    <member refid="classDiccionario_1_1iterator_1aeb9bb5ac93a06759cc8204d33cdee8cc" kind="variable"><name>it</name></member>
+    <member refid="classDiccionario_1_1iterator_1ad36be158dde0129b4e0d03d0e454a26b" kind="friend"><name>Diccionario</name></member>
+    <member refid="classDiccionario_1_1iterator_1a09b6773eef10e4563efa069d3d88f4fc" kind="function"><name>iterator</name></member>
+    <member refid="classDiccionario_1_1iterator_1aa03a8aa59bb2b36d4b6d6540afc18deb" kind="function"><name>operator*</name></member>
+    <member refid="classDiccionario_1_1iterator_1ae3f020050c891ff3a94e599879401729" kind="function"><name>operator++</name></member>
+    <member refid="classDiccionario_1_1iterator_1a6ab38d0620a196200714ee04291dea55" kind="function"><name>operator==</name></member>
+    <member refid="classDiccionario_1_1iterator_1a5d51cafd201ab15390e991c6aed327ee" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="Diccionario_8h" kind="file"><name>Diccionario.h</name>
+  </compound>
+</doxygenindex>

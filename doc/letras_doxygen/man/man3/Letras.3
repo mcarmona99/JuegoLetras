@@ -1,0 +1,168 @@
+.TH "Letras" 3 "Viernes, 28 de Diciembre de 2018" "ClaseLetras" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Letras \- T\&.D\&.A\&. Letra\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <letras\&.h>\fP
+.SS "Clases"
+
+.in +1c
+.ti -1c
+.RI "class \fBiterator\fP"
+.br
+.RI "clase para iterar sobre las letras "
+.in -1c
+.SS "Métodos públicos"
+
+.in +1c
+.ti -1c
+.RI "map< char, \fBinfo\fP > \fBgetDatos\fP ()"
+.br
+.RI "getDatos "
+.ti -1c
+.RI "int \fBsize\fP () const"
+.br
+.RI "size "
+.ti -1c
+.RI "double \fBletrasTotales\fP ()"
+.br
+.RI "size "
+.ti -1c
+.RI "void \fBinsert\fP (char letra)"
+.br
+.RI "Insert letra\&. "
+.ti -1c
+.RI "void \fBclear\fP ()"
+.br
+.RI "Limpia las letras, vacia el mapa\&. "
+.ti -1c
+.RI "\fBiterator\fP \fBbegin\fP ()"
+.br
+.RI "Inicializa un iterator al comienzo de las letras\&. "
+.ti -1c
+.RI "\fBiterator\fP \fBend\fP ()"
+.br
+.RI "Inicializa un iterator al final de las letras\&. "
+.in -1c
+.SS "Amigas"
+
+.in +1c
+.ti -1c
+.RI "ostream & \fBoperator<<\fP (ostream &os, \fBLetras\fP &g)"
+.br
+.RI "Escritura de la letras\&. "
+.ti -1c
+.RI "istream & \fBoperator>>\fP (istream &is, \fBLetras\fP &g)"
+.br
+.RI "Lectura de las \fBLetras\fP\&. "
+.in -1c
+.SH "Descripción detallada"
+.PP 
+T\&.D\&.A\&. Letra\&. 
+
+Una instancia \fIc\fP del tipo de datos abstracto \fCLetra\fP es un objeto formado por El carácter de la propia letra, La cantidad de veces que puede aparecer en un diccionario La puntuación de una letra\&.
+.PP
+\fBAutor:\fP
+.RS 4
+Jose Saldaña && Manuel Carmona 
+.RE
+.PP
+\fBFecha:\fP
+.RS 4
+Diciembre 2018 
+.RE
+.PP
+
+.SH "Documentación de las funciones miembro"
+.PP 
+.SS "map<char,\fBinfo\fP> Letras::getDatos ()\fC [inline]\fP"
+
+.PP
+getDatos 
+.PP
+\fBDevuelve:\fP
+.RS 4
+map de <char, info> llamado datos de la bolsa de letras 
+.RE
+.PP
+
+.SS "void Letras::insert (char letra)\fC [inline]\fP"
+
+.PP
+Insert letra\&. 
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIletra\fP char letra 
+.RE
+.PP
+
+.SS "double Letras::letrasTotales ()\fC [inline]\fP"
+
+.PP
+size 
+.PP
+\fBDevuelve:\fP
+.RS 4
+devuelve numero total de letras en bolsa de letras 
+.RE
+.PP
+
+.SS "int Letras::size () const\fC [inline]\fP"
+
+.PP
+size 
+.PP
+\fBDevuelve:\fP
+.RS 4
+devuelve numero de letras distintas en bolsa de letras (elementos del map) 
+.RE
+.PP
+
+.SH "Documentación de las funciones relacionadas y clases amigas"
+.PP 
+.SS "ostream& operator<< (ostream & os, \fBLetras\fP & g)\fC [friend]\fP"
+
+.PP
+Escritura de la letras\&. 
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIos\fP flujo de salida\&. Es MODIFICADO 
+.br
+\fIg\fP letras que se escriben 
+.RE
+.PP
+\fBDevuelve:\fP
+.RS 4
+el flujo de salida 
+.RE
+.PP
+
+.SS "istream& operator>> (istream & is, \fBLetras\fP & g)\fC [friend]\fP"
+
+.PP
+Lectura de las \fBLetras\fP\&. 
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIis\fP flujo de entrada\&. ES MODIFICADO 
+.br
+\fIg\fP \fBLetras\fP\&. ES MODIFICADO 
+.RE
+.PP
+\fBDevuelve:\fP
+.RS 4
+el flujo de entrada 
+.RE
+.PP
+
+
+.SH "Autor"
+.PP 
+Generado automáticamente por Doxygen para ClaseLetras del código fuente\&.

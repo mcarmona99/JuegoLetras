@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classDiccionario" kind="class" language="C++" prot="public">
+    <compoundname>Diccionario</compoundname>
+    <innerclass refid="classDiccionario_1_1iterator" prot="public">Diccionario::iterator</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classDiccionario_1aae047bbcc9d6bc3c7b0b2c308d39048d" prot="private" static="no" mutable="no">
+        <type>set&lt; string &gt;</type>
+        <definition>set&lt;string&gt; Diccionario::datos</definition>
+        <argsstring></argsstring>
+        <name>datos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="30" column="1" bodyfile="Diccionario.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDiccionario_1aa0a2191ec706b256c35b5229cc197b15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Diccionario::Diccionario</definition>
+        <argsstring>()</argsstring>
+        <name>Diccionario</name>
+        <briefdescription>
+<para>Construye un diccionario vacío. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="35" column="1" bodyfile="Diccionario.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classDiccionario_1a74ea14ecba52288b84ffc6ea1f2fba99" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Diccionario::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <briefdescription>
+<para>Devuelve el numero de palabras en el diccionario. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="40" column="1" bodyfile="Diccionario.h" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classDiccionario_1a11f24f812f9aab727dc5ef088aa0d45b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; Diccionario::PalabrasLongitud</definition>
+        <argsstring>(int longitud)</argsstring>
+        <name>PalabrasLongitud</name>
+        <param>
+          <type>int</type>
+          <declname>longitud</declname>
+        </param>
+        <briefdescription>
+<para>Obtiene todas las palabras en el diccionario de un longitud dada. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>longitud</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>la longitud de las palabras de salida </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>un vector con las palabras de longitud especifica en el parametro de entrada </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="49" column="1" bodyfile="Diccionario.h" bodystart="49" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classDiccionario_1a2091d415bc53c34a0e78e7bd9b073024" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Diccionario::Esta</definition>
+        <argsstring>(string palabra)</argsstring>
+        <name>Esta</name>
+        <param>
+          <type>string</type>
+          <declname>palabra</declname>
+        </param>
+        <briefdescription>
+<para>Indica si una palabra está en el diccionario o no. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>palabra</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>la palabra que se quiere buscar </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la palabra esta en el diccionario. False en caso contrario </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="64" column="1" bodyfile="Diccionario.h" bodystart="64" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classDiccionario_1a3f42d480e74efbd66b8837d0ea1e491d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classDiccionario_1_1iterator" kindref="compound">iterator</ref></type>
+        <definition>iterator Diccionario::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <briefdescription>
+<para>Inicializa un iterator al comienzo del diccionario. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="134" column="1" bodyfile="Diccionario.h" bodystart="134" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classDiccionario_1abe91cc666c92f7f003507a82bdcd8c35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classDiccionario_1_1iterator" kindref="compound">iterator</ref></type>
+        <definition>iterator Diccionario::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+<para>Inicializa un iterator al final del diccionario. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="142" column="1" bodyfile="Diccionario.h" bodystart="142" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classDiccionario_1a940c6d9371bca891c95a5a044a42905f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>friend istream &amp;</type>
+        <definition>istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(istream &amp;is, Diccionario &amp;D)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="classDiccionario" kindref="compound">Diccionario</ref> &amp;</type>
+          <declname>D</declname>
+        </param>
+        <briefdescription>
+<para>Lee de un flujo de entrada un diccionario. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>is:flujo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>de entrada </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>D</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>el objeto donde se realiza la lectura. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>el flujo de entrada </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="84" column="1" bodyfile="Diccionario.h" bodystart="84" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="friend" id="classDiccionario_1ab113838fe9eefef3cc1c6710e45bde31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>friend ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;os, Diccionario &amp;D)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classDiccionario" kindref="compound">Diccionario</ref> &amp;</type>
+          <declname>D</declname>
+        </param>
+        <briefdescription>
+<para>Escribe en un flujo de salida un diccionario. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>os:flujo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>de salida </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>D</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>el objeto diccionario que se escribe </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>el flujo de salida </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Diccionario.h" line="97" column="1" bodyfile="Diccionario.h" bodystart="97" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Diccionario.h" line="28" column="1" bodyfile="Diccionario.h" bodystart="28" bodyend="147"/>
+    <listofallmembers>
+      <member refid="classDiccionario_1a3f42d480e74efbd66b8837d0ea1e491d" prot="public" virt="non-virtual"><scope>Diccionario</scope><name>begin</name></member>
+      <member refid="classDiccionario_1aae047bbcc9d6bc3c7b0b2c308d39048d" prot="private" virt="non-virtual"><scope>Diccionario</scope><name>datos</name></member>
+      <member refid="classDiccionario_1aa0a2191ec706b256c35b5229cc197b15" prot="public" virt="non-virtual"><scope>Diccionario</scope><name>Diccionario</name></member>
+      <member refid="classDiccionario_1abe91cc666c92f7f003507a82bdcd8c35" prot="public" virt="non-virtual"><scope>Diccionario</scope><name>end</name></member>
+      <member refid="classDiccionario_1a2091d415bc53c34a0e78e7bd9b073024" prot="public" virt="non-virtual"><scope>Diccionario</scope><name>Esta</name></member>
+      <member refid="classDiccionario_1ab113838fe9eefef3cc1c6710e45bde31" prot="public" virt="non-virtual"><scope>Diccionario</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classDiccionario_1a940c6d9371bca891c95a5a044a42905f" prot="public" virt="non-virtual"><scope>Diccionario</scope><name>operator&gt;&gt;</name></member>
+      <member refid="classDiccionario_1a11f24f812f9aab727dc5ef088aa0d45b" prot="public" virt="non-virtual"><scope>Diccionario</scope><name>PalabrasLongitud</name></member>
+      <member refid="classDiccionario_1a74ea14ecba52288b84ffc6ea1f2fba99" prot="public" virt="non-virtual"><scope>Diccionario</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

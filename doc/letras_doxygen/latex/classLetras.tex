@@ -1,0 +1,161 @@
+\section{Referencia de la Clase Letras}
+\label{classLetras}\index{Letras@{Letras}}
+
+
+T.\+D.\+A. Letra.  
+
+
+
+
+{\ttfamily \#include $<$letras.\+h$>$}
+
+\subsection*{Clases}
+\begin{DoxyCompactItemize}
+\item 
+class \textbf{ iterator}
+\begin{DoxyCompactList}\small\item\em clase para iterar sobre las letras \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+map$<$ char, \textbf{ info} $>$ \textbf{ get\+Datos} ()
+\begin{DoxyCompactList}\small\item\em get\+Datos \end{DoxyCompactList}\item 
+int \textbf{ size} () const
+\begin{DoxyCompactList}\small\item\em size \end{DoxyCompactList}\item 
+double \textbf{ letras\+Totales} ()
+\begin{DoxyCompactList}\small\item\em size \end{DoxyCompactList}\item 
+void \textbf{ insert} (char letra)
+\begin{DoxyCompactList}\small\item\em Insert letra. \end{DoxyCompactList}\item 
+\mbox{\label{classLetras_a7a60346ddf283f4288e116bfde987919}} 
+void \textbf{ clear} ()
+\begin{DoxyCompactList}\small\item\em Limpia las letras, vacia el mapa. \end{DoxyCompactList}\item 
+\mbox{\label{classLetras_a04af293c10692da448c878fb3d43aefa}} 
+\textbf{ iterator} \textbf{ begin} ()
+\begin{DoxyCompactList}\small\item\em Inicializa un iterator al comienzo de las letras. \end{DoxyCompactList}\item 
+\mbox{\label{classLetras_a74688c29b3dc2af95c794e604ac393f6}} 
+\textbf{ iterator} \textbf{ end} ()
+\begin{DoxyCompactList}\small\item\em Inicializa un iterator al final de las letras. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Amigas}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \textbf{ operator$<$$<$} (ostream \&os, \textbf{ Letras} \&g)
+\begin{DoxyCompactList}\small\item\em Escritura de la letras. \end{DoxyCompactList}\item 
+istream \& \textbf{ operator$>$$>$} (istream \&is, \textbf{ Letras} \&g)
+\begin{DoxyCompactList}\small\item\em Lectura de las \doxyref{Letras}{p.}{classLetras}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+T.\+D.\+A. Letra. 
+
+Una instancia {\itshape c} del tipo de datos abstracto {\ttfamily Letra} es un objeto formado por El carácter de la propia letra, La cantidad de veces que puede aparecer en un diccionario La puntuación de una letra.
+
+\begin{DoxyAuthor}{Autor}
+Jose Saldaña \&\& Manuel Carmona 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+Diciembre 2018 
+\end{DoxyDate}
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\label{classLetras_a3945484bd373b3afbbc18f741b7eab59}} 
+\index{Letras@{Letras}!get\+Datos@{get\+Datos}}
+\index{get\+Datos@{get\+Datos}!Letras@{Letras}}
+\subsubsection{get\+Datos()}
+{\footnotesize\ttfamily map$<$char,\textbf{ info}$>$ Letras\+::get\+Datos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+get\+Datos 
+
+\begin{DoxyReturn}{Devuelve}
+map de $<$char, info$>$ llamado datos de la bolsa de letras 
+\end{DoxyReturn}
+\mbox{\label{classLetras_a701a2facb3e43516889234c5e5ec99f0}} 
+\index{Letras@{Letras}!insert@{insert}}
+\index{insert@{insert}!Letras@{Letras}}
+\subsubsection{insert()}
+{\footnotesize\ttfamily void Letras\+::insert (\begin{DoxyParamCaption}\item[{char}]{letra }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Insert letra. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em letra} & char letra \\
+\hline
+\end{DoxyParams}
+\mbox{\label{classLetras_a6bbbbfff1234adf43426ca7005fade44}} 
+\index{Letras@{Letras}!letras\+Totales@{letras\+Totales}}
+\index{letras\+Totales@{letras\+Totales}!Letras@{Letras}}
+\subsubsection{letras\+Totales()}
+{\footnotesize\ttfamily double Letras\+::letras\+Totales (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+size 
+
+\begin{DoxyReturn}{Devuelve}
+devuelve numero total de letras en bolsa de letras 
+\end{DoxyReturn}
+\mbox{\label{classLetras_a4e10189e5de6c91d2f3a1f3ff94f44bd}} 
+\index{Letras@{Letras}!size@{size}}
+\index{size@{size}!Letras@{Letras}}
+\subsubsection{size()}
+{\footnotesize\ttfamily int Letras\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+size 
+
+\begin{DoxyReturn}{Devuelve}
+devuelve numero de letras distintas en bolsa de letras (elementos del map) 
+\end{DoxyReturn}
+
+
+\subsection{Documentación de las funciones relacionadas y clases amigas}
+\mbox{\label{classLetras_a0421b5bbfb15ec3f48b7628a5afc42ba}} 
+\index{Letras@{Letras}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Letras@{Letras}}
+\subsubsection{operator$<$$<$}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{\textbf{ Letras} \&}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Escritura de la letras. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em os} & flujo de salida. Es M\+O\+D\+I\+F\+I\+C\+A\+DO \\
+\hline
+{\em g} & letras que se escriben \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+el flujo de salida 
+\end{DoxyReturn}
+\mbox{\label{classLetras_a3d860b8bda86d5a30b8094770cc035b5}} 
+\index{Letras@{Letras}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Letras@{Letras}}
+\subsubsection{operator$>$$>$}
+{\footnotesize\ttfamily istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{is,  }\item[{\textbf{ Letras} \&}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Lectura de las \doxyref{Letras}{p.}{classLetras}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em is} & flujo de entrada. ES M\+O\+D\+I\+F\+I\+C\+A\+DO \\
+\hline
+{\em g} & \doxyref{Letras}{p.}{classLetras}. ES M\+O\+D\+I\+F\+I\+C\+A\+DO \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+el flujo de entrada 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+letras.\+h\end{DoxyCompactItemize}

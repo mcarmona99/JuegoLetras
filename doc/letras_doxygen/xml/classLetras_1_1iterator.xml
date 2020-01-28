@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classLetras_1_1iterator" kind="class" language="C++" prot="public">
+    <compoundname>Letras::iterator</compoundname>
+    <includes refid="letras_8h" local="no">letras.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classLetras_1_1iterator_1a2d2b693b8b1622fb2946dba5812ff6c0" prot="private" static="no" mutable="no">
+        <type>map&lt; char, <ref refid="structinfo" kindref="compound">info</ref> &gt;::<ref refid="classLetras_1_1iterator" kindref="compound">iterator</ref></type>
+        <definition>map&lt;char,info&gt;::iterator Letras::iterator::it</definition>
+        <argsstring></argsstring>
+        <name>it</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="146" column="1" bodyfile="letras.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classLetras_1_1iterator_1a63063318eace5c2412fd3a23b9efb409" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class Letras</definition>
+        <argsstring></argsstring>
+        <name>Letras</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="167" column="1" bodyfile="letras.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLetras_1_1iterator_1a17a9f16bc61e9b9f860923fa623d1e7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classLetras_1_1iterator" kindref="compound">iterator</ref> &amp;</type>
+        <definition>iterator&amp; Letras::iterator::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="148" column="1" bodyfile="letras.h" bodystart="148" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classLetras_1_1iterator_1a7a6c01dab9a67464457403ec044a8135" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classLetras_1_1iterator" kindref="compound">iterator</ref> &amp;</type>
+        <definition>iterator&amp; Letras::iterator::operator--</definition>
+        <argsstring>()</argsstring>
+        <name>operator--</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="152" column="1" bodyfile="letras.h" bodystart="152" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classLetras_1_1iterator_1a952d13287a9435764ee98653778d3d7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>pair&lt; const char, <ref refid="structinfo" kindref="compound">info</ref> &gt; &amp;</type>
+        <definition>pair&lt;const char,info&gt;&amp; Letras::iterator::operator*</definition>
+        <argsstring>()</argsstring>
+        <name>operator*</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="156" column="1" bodyfile="letras.h" bodystart="156" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classLetras_1_1iterator_1a1ec9d3aad990986b2b09942edac0976b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Letras::iterator::operator==</definition>
+        <argsstring>(const iterator &amp;i)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classLetras_1_1iterator" kindref="compound">iterator</ref> &amp;</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="159" column="1" bodyfile="letras.h" bodystart="159" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classLetras_1_1iterator_1afd5eed2a6f6397c4abc72d08747c5394" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Letras::iterator::operator!=</definition>
+        <argsstring>(const iterator &amp;i)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classLetras_1_1iterator" kindref="compound">iterator</ref> &amp;</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="letras.h" line="163" column="1" bodyfile="letras.h" bodystart="163" bodyend="165"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>clase para iterar sobre las letras </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="letras.h" line="144" column="1" bodyfile="letras.h" bodystart="144" bodyend="168"/>
+    <listofallmembers>
+      <member refid="classLetras_1_1iterator_1a2d2b693b8b1622fb2946dba5812ff6c0" prot="private" virt="non-virtual"><scope>Letras::iterator</scope><name>it</name></member>
+      <member refid="classLetras_1_1iterator_1a63063318eace5c2412fd3a23b9efb409" prot="public" virt="non-virtual"><scope>Letras::iterator</scope><name>Letras</name></member>
+      <member refid="classLetras_1_1iterator_1afd5eed2a6f6397c4abc72d08747c5394" prot="public" virt="non-virtual"><scope>Letras::iterator</scope><name>operator!=</name></member>
+      <member refid="classLetras_1_1iterator_1a952d13287a9435764ee98653778d3d7d" prot="public" virt="non-virtual"><scope>Letras::iterator</scope><name>operator*</name></member>
+      <member refid="classLetras_1_1iterator_1a17a9f16bc61e9b9f860923fa623d1e7f" prot="public" virt="non-virtual"><scope>Letras::iterator</scope><name>operator++</name></member>
+      <member refid="classLetras_1_1iterator_1a7a6c01dab9a67464457403ec044a8135" prot="public" virt="non-virtual"><scope>Letras::iterator</scope><name>operator--</name></member>
+      <member refid="classLetras_1_1iterator_1a1ec9d3aad990986b2b09942edac0976b" prot="public" virt="non-virtual"><scope>Letras::iterator</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
